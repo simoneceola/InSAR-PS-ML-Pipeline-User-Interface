@@ -1,6 +1,9 @@
 # Single-Orbit InSAR ML Inspector
 
-    streamlit run app.py
+    ./run_app.sh
+
+The launch script stores Python bytecode in `/tmp/insar-ps-pycache`, outside the
+repository, so new runs no longer recreate `.pyc`/`__pycache__` data in the repo.
 
 **To choose what appears on the page, edit `page_layout.py`** (3 switches: top row, page sections, ML models).
 
