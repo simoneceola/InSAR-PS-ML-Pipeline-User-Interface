@@ -1,0 +1,14 @@
+streamlit
+plotly
+numpy
+pandas
+scipy
+scikit-learn
+statsmodels
+pyproj
+geopandas
+# optional (used automatically if installed)
+torch
+tslearn
+xgboost
+lightgbm
