@@ -2,4 +2,4 @@
 
 export PYTHONPYCACHEPREFIX="${PYTHONPYCACHEPREFIX:-/tmp/insar-ps-pycache}"
 
-streamlit run app.py
+py -m streamlit run app.py --server.port 8507
