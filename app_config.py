@@ -12,7 +12,7 @@ from pyproj import Transformer
 
 # ------------------------------------------------------------------ paths
 APP_DIR = Path(__file__).resolve().parent
-DEFAULT_CSV_PATH = APP_DIR / "data_06_oct.csv"
+DEFAULT_CSV_PATH = "C:\\Users\\samsung\\OneDrive - Politecnico di Milano\\Desktop\\data_06_oct.csv"
 DEFAULT_GPKG_PATH = APP_DIR / "rotterdam.gpkg"
 HEIGHT_INFO_PATH = APP_DIR / "data_io" / "height_info.geojson"
 EXPORT_DIR = APP_DIR / "insar_export"
