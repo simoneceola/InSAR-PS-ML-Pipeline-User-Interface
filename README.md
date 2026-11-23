@@ -1,6 +1,7 @@
 # Single-Orbit InSAR ML Inspector
+To run: (from Git Bash)
 
-    ./run_app.sh
+    bash run_app.sh
 
 The launch script stores Python bytecode in `/tmp/insar-ps-pycache`, outside the
 repository, so new runs no longer recreate `.pyc`/`__pycache__` data in the repo.
